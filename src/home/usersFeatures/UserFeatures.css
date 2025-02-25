@@ -1,0 +1,156 @@
+.userReviewsWrap {
+    display: flex;
+    padding: 44px 32px;
+}
+
+.reaviewsItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid #FFFFFF26;
+    padding: 128px 50px;
+    width: 100%;
+    justify-content: center;
+    border-radius: 20px;
+    gap: 30px;
+    position: relative;
+    overflow: hidden;
+    background-image: url('../../assets/stars.svg');
+    background-size: cover;
+    background-position: center;
+
+}
+
+.reaviewsItem::after {
+    position: absolute;
+    content: '';
+    height: 250%;
+    top: -120%;
+    aspect-ratio: 1 / 1;
+    background: radial-gradient(circle, rgba(152, 85, 255, 1) 0%, rgba(153, 112, 58, 0) 70%);
+    background-size: cover;
+    background-position: center;
+    overflow: visible;
+}
+
+.userReviewsText {
+    display: flex;
+    flex-direction: column;
+    max-width: 339px;
+    position: relative;
+    z-index: 1;
+    gap: 20px;
+}
+
+
+.userQuote {
+    color: white;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 34px;
+    letter-spacing: -0.01%;
+
+}
+
+.userName {
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.01%;
+
+}
+
+.userNamePosition {
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: -0.01%;
+
+}
+
+.userAva {
+    width: 20%;
+    position: relative;
+    z-index: 1;
+}
+
+@media(max-width: 650px) {
+    .reaviewsItem {
+        flex-direction: column;
+        align-items: flex-start;
+
+
+    }
+
+    .reaviewsItem::after {
+        top: -150%;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+
+    .userReviewsText {
+        max-width: 100%;
+    }
+
+    .userAva {
+        width: 100%;
+        max-width: 173px;
+    }
+
+    .userQuote {
+
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 25px;
+        letter-spacing: -0.01%;
+
+    }
+
+    .userName {
+
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: -0.01%;
+
+    }
+
+    .userNamePosition {
+
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 26px;
+        letter-spacing: -0.01%;
+
+    }
+
+    .userReviewsWrap {
+        padding: 44px 20px;
+    }
+
+    .reaviewsItem {
+        padding: 47px 32px;
+    }
+
+    .blockMainTitle {
+
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 35px;
+        letter-spacing: -1.5%;
+        text-align: center;
+
+    }
+
+    .headerSecTitle {
+
+font-weight: 400;
+font-size: 20px;
+line-height: 31px;
+letter-spacing: -0.01%;
+text-align: center;
+
+    }
+}

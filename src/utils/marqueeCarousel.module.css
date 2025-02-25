@@ -1,0 +1,37 @@
+.marqueeCarouselWrap {
+  
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+}
+
+.marqueeTrack {
+    display: flex;
+    width: 100%;
+   
+}
+
+.marqueeCont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    animation: marqueeScroll 10s linear infinite; 
+}
+
+.marqueeLogo {
+    height: 30px;
+    width: auto;
+    padding: 0 27px;
+}
+
+/* Animation for infinite scrolling */
+@keyframes marqueeScroll {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        
+            transform: translateX(-33.33%); /* Moves one full set of images */
+    }
+}

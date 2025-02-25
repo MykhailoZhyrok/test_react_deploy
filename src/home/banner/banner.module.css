@@ -1,0 +1,270 @@
+/* General Styling */
+.banner {
+   
+    background-image: url('../../assets/bannerBack.png');
+    background-size: cover;
+    background-position: bottom right;
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+
+   flex-grow: 1;
+  }
+  
+  .bannerCont {
+    max-width: 1920px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: space-between;
+    flex-grow: 1;
+    width: 100%;
+    box-sizing: border-box;
+}
+  
+  .bannerMain {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    max-width: 1220px;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .bannerTextCont {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    max-width: 544px;
+    position: relative;
+  }
+  
+
+  .bannerTextContHeader {
+    display: inline-flex;
+
+    flex-direction: row;
+    gap: 7px;
+    align-items: center;
+    border-radius: 50px;
+    padding: 8px 14px;
+    border: 1px solid #FFFFFF26;
+    width: max-content; 
+  }
+  
+  .bannerHeaderTextPink {
+ color: black;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 26px;
+    letter-spacing: -0.01%;
+    background-color: #9855FF;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    width: 34px;
+    height: 18px;
+    box-sizing: border-box;
+    
+  }
+  
+  .bannerHeaderTitle {
+
+color: #9855FF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    
+    
+  }
+  
+  /* Banner Title */
+  .bannerTitle {
+    background: linear-gradient(291.9deg, #FFFFFF 62.65%, #000000 108.48%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 82px;
+    line-height: 84px;
+    letter-spacing: -5.06%;
+    text-align: left;
+
+  }
+  
+  /* Banner Description */
+  .bannerDesc {
+color: #fff;
+font-weight: 400;
+font-size: 20px;
+line-height: 31px;
+letter-spacing: -0.01%;
+text-align: left;
+    
+  }
+  
+  /* Input Field and Button */
+  .bannerInputWrapper {
+    display: flex;
+    flex-direction: row;
+    max-width: 401px;
+    align-items: center;
+    border: 1px solid #FFFFFF26;
+    padding: 4px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    height: 49px;
+  }
+  
+  .bannerInput {
+    color: #fff;
+
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+
+
+    width: 250px;
+    padding: 12px;
+    font-size: 16px;
+    width: 80%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    outline: none;
+    background-color: transparent;
+    border: 0;
+    height: 49px;
+
+  }
+  
+  .bannerInput::placeholder {
+    color: #999;
+  }
+  
+  .bannerInputButtons {
+    padding: 5px 15px;
+    border-radius: 8px;
+    background-color: #fff;
+  
+
+    text-wrap: nowrap;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 31px;
+    letter-spacing: -1.01%;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .bannerInputButtons:hover {
+    background: #9855FF;
+  }
+  
+  /* Banner Image */
+  .bannerImg {
+   
+    width: 100%;
+
+
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 992px) {
+    .bannerCont {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .bannerInputWrapper {
+      justify-content: center;
+    }
+  }
+  
+
+  .marqueeWrap {
+    display: flex;
+    flex-direction: row;
+    gap: 27px;
+  
+    
+  }
+
+  .marqueeTitle {
+color: #fff;
+font-weight: 400;
+font-size: 14px;
+text-wrap: nowrap;
+line-height: 26px;
+letter-spacing: -0.01%;
+
+  }
+
+  
+
+@media(max-width: 1100px){
+    .bannerImg {
+      position: absolute;
+      width: 100%;;
+
+      box-sizing: border-box;
+      z-index: -1;
+    }
+    .bannerTextCont {
+      margin: auto 0;
+      position: relative;
+      z-index: 1;
+    }
+    .bannerMain {
+      flex-grow: 1;
+    }
+}
+
+
+@media(max-width: 650px){
+  .bannerTextCont {
+    width: 100%;
+    align-items: flex-start;
+  }
+  .bannerTitle {
+
+font-weight: 500;
+font-size: 54px;
+line-height: 69px;
+letter-spacing: -5.06%;
+max-width: 324px;
+  }
+  .bannerDesc {
+
+font-weight: 400;
+font-size: 20px;
+line-height: 31px;
+letter-spacing: -0.01%;
+
+  }
+
+  .bannerInputWrapper {
+    flex-direction: column;
+    border: 0;
+    height: auto;
+    gap: 12px;
+    width: 100%;
+    max-width: 100%;
+  }
+  .bannerInputButtons {
+    width: 100%;
+    box-sizing: border-box;
+   
+  }
+
+  .bannerInput {
+    border: 1px solid #FFFFFF26;
+    border-radius: 8px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,131 @@
+
+.blockMainTitle {
+color: #f9f9f9;
+font-weight: 500;
+font-size: 56px;
+line-height: 65px;
+letter-spacing: -1.5%;
+text-align: center;
+
+}
+
+.tableWrap {
+    padding: 50px 132px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 0; 
+   
+    box-sizing: border-box;
+  }
+
+
+  td {
+    border-top: 1px solid #FFFFFF26;
+    padding: 15px;
+    height: 56px;
+    box-sizing: border-box;
+  }
+  th {
+    color: #f9f9f9;
+    text-align: left;
+    padding: 15px;
+  }
+
+
+  .thHeaderTitle {
+    margin-bottom: 5px;
+color: #f9f9f9;
+font-weight: 500;
+font-size: 24px;
+line-height: 38px;
+letter-spacing: -0.04%;
+
+  }
+
+  .thHeaderDesc {
+    border: 1px solid #FFFFFF26;
+    box-shadow: 0px 0px 6px 3px #FFFFFF40 inset;
+    padding: 10px 15px;
+    border-radius: 10px;
+    display: inline-block;
+backdrop-filter: blur(14px);
+color: #f9f9f9;
+font-weight: 400;
+font-size: 14px;
+line-height: 26px;
+letter-spacing: -0.01%;
+
+
+  }
+
+  .thBlock {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  .thHeaderDesc.active {
+    background: #8C45FF66;
+
+  }
+  .activeCol {
+
+ 
+    background: #140B27;
+
+
+
+
+  }
+
+  td {
+color: #f9f9f9;
+font-family: "Inter";
+font-weight: 400;
+font-size: 14px;
+line-height: 26px;
+letter-spacing: -0.01%;
+
+  }
+
+
+  th.withoutBorder, td.withoutBorder {
+ 
+}
+
+ .priceTableMainWrap {
+    margin: 40px 50px;
+    border: 1px solid #FFFFFF26;
+    border-radius: 20px;
+
+ }
+
+ .activeCol.bottom {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+ }
+
+ @media(max-width: 1100px){
+  .tableWrap {
+    padding: 50px 0px;
+    border: 0;
+  }
+  .priceTableMainWrap {
+    padding: 50px 0px;
+    border: 0;
+  }
+ }
+
+ @media(max-width: 700px){
+  .priceTableMainWrap {
+    padding: 0px 0;
+    margin: 0;
+  }
+  td.hidden, th.hidden {
+    display: none;
+  }
+ 
+
+
+ }
