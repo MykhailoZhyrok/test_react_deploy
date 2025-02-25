@@ -1,4 +1,3 @@
-import React from 'react'
 import paymentsLogo from '../../assets/logoPay.png'
 import './Payments.css'
 

@@ -1,4 +1,3 @@
-import React from 'react'
 import './PriceTable.css'
 
 export const Pricetable = () => {
