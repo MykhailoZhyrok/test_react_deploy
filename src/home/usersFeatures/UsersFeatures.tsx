@@ -1,4 +1,3 @@
-import React from 'react'
 import './UserFeatures.css'
 import ava from '../../assets/userAva.png'
 

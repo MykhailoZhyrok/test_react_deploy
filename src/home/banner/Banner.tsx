@@ -1,4 +1,4 @@
-import React from 'react'
+
 import styles from './banner.module.css'
 import bannerCube from '../../assets/bannerCube.png'
 import { MarqueeCarousel } from '../../utils/Maruee'

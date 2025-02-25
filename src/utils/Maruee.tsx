@@ -1,4 +1,4 @@
-import React from "react";
+
 import styles from "./marqueeCarousel.module.css";
 import celestial from '../assets/logo/celestial1.png';
 import apex from '../assets/logo/apexw1.png';
