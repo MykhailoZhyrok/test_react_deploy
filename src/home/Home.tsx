@@ -16,7 +16,7 @@ export const Home = () => {
 
     <Header />
 
-    <Banner/>\
+    <Banner/>
     </div>
     <Features/>
     <UsersFeatures/>

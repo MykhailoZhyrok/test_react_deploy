@@ -8,6 +8,7 @@
     flex-direction: row;
     align-items: center;
     border: 1px solid #FFFFFF26;
+    
     padding: 128px 50px;
     width: 100%;
     justify-content: center;
@@ -17,7 +18,9 @@
     overflow: hidden;
     background-image: url('../../assets/stars.svg');
     background-size: cover;
-    background-position: center;
+    background-position: right;
+    height: 100%;
+    box-sizing: border-box;
 
 }
 
